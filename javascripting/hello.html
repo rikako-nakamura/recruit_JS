@@ -66,6 +66,18 @@
       }else{
         document.write("Today will be rain");
       }
+
+      document.write("<br/>");
+      for(let i = 0; i < 10; i++){
+        document.write("繰り返しの"+ i + "回目");
+        document.write("<br />");
+      }
+
+      let array = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+      array.forEach(function(element){
+        document.write("配列の" + element + "番目");
+        document.write("<br />");
+      });
     </script>
 </body>
 </html>
