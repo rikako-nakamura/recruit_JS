@@ -10,6 +10,23 @@
       document.write(10*30);
       document.write("<br/>");
       document.write(40/20);
+
+      //letは一度値を代入した後、再度別の値を代入することができる
+      let x = 1;
+      let y = 2;
+      let total = x + y;
+      document.write(total);
+      document.write("<br/>");
+
+      //値を後から代入できない
+      const tax = 1.1;
+      let sweets = 500 * tax;
+      let book = 1000 * tax;
+      document.write(sweets + book);
+
+      document.write("<br/>");
+      let student = {"john": 100, "harry":85, "ron":50};
+      document.write("harryの得点は" + student["harry"] + "点です。");
     </script>
 </body>
 </html>
