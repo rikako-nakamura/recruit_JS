@@ -27,6 +27,18 @@
       document.write("<br/>");
       let student = {"john": 100, "harry":85, "ron":50};
       document.write("harryの得点は" + student["harry"] + "点です。");
+
+      document.write("<br/>");
+      function recept(tax){
+        let egg = 300 * tax;
+        let rice = 1000 * tax;
+        let soysauce = 200 * tax;
+        let total = egg + rice + soysauce;
+        return total;
+      }
+      let pay = recept(tax);
+      document.write(pay);
+
     </script>
 </body>
 </html>
