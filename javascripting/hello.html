@@ -39,6 +39,33 @@
       let pay = recept(tax);
       document.write(pay);
 
+      document.write("<br/>");
+      let point = 80;
+      if(point > 70){
+        document.write("合格");
+      }else{
+        document.write("不合格");
+      }
+
+      document.write("<br/>");
+      let lastname = "山田";
+      let firstname = "一郎";
+      if(lastname == "山田" && firstname == "太郎"){
+        document.write("私は山田太郎です");
+      }else{
+        document.write("私は" + lastname + firstname + "です");
+      }
+
+      document.write("<br/>");
+      let weather1 = "sunny";
+      let weather2 = "rainy";
+      if(weather1 == "sunny" && weather2 == "sunny"){
+        document.write("Today is sunny all day");
+      }else if (weather1 == "sunny" || weather2 == "cloudy"){
+        document.write("Today is sunny or cloudy");
+      }else{
+        document.write("Today will be rain");
+      }
     </script>
 </body>
 </html>
